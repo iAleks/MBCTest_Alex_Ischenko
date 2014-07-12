@@ -19,6 +19,21 @@
 		D9E3EA5219712057005DD572 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E3EA3A19712057005DD572 /* UIKit.framework */; };
 		D9E3EA5A19712057005DD572 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9E3EA5819712057005DD572 /* InfoPlist.strings */; };
 		D9E3EA5C19712057005DD572 /* MBCTest_Alex_IschenkoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E3EA5B19712057005DD572 /* MBCTest_Alex_IschenkoTests.m */; };
+		D9E3EA6A19712123005DD572 /* MBCNotesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E3EA6919712123005DD572 /* MBCNotesCollectionViewController.m */; };
+		D9E3EA7119712191005DD572 /* MBCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E3EA7019712191005DD572 /* MBCRootViewController.m */; };
+		D9E3EA7419712419005DD572 /* MBCNotesFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E3EA7319712419005DD572 /* MBCNotesFlowLayout.m */; };
+		D9E3EA7919712517005DD572 /* MBCNotesModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9E3EA7719712517005DD572 /* MBCNotesModel.xcdatamodeld */; };
+		D9E3EA7C19712639005DD572 /* MBCNote.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E3EA7B19712639005DD572 /* MBCNote.m */; };
+		D9E3EA7F19712824005DD572 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E3EA7E19712824005DD572 /* CoreData.framework */; };
+		D9E3EA83197128DB005DD572 /* MBCDefaultLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E3EA82197128DB005DD572 /* MBCDefaultLocalStorage.m */; };
+		D9E3EA8719712CAD005DD572 /* MBCConcurentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E3EA8619712CAD005DD572 /* MBCConcurentOperation.m */; };
+		D9E3EA8B19712D72005DD572 /* MBCPersistentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E3EA8A19712D72005DD572 /* MBCPersistentOperation.m */; };
+		D9E3EA8F19712F2F005DD572 /* MBCNotesObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E3EA8E19712F2F005DD572 /* MBCNotesObjectMapper.m */; };
+		D9E3EA9219712F8A005DD572 /* MBCGetNotesOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E3EA9119712F8A005DD572 /* MBCGetNotesOperation.m */; };
+		D9E3EA96197143B8005DD572 /* MBCNoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E3EA95197143B8005DD572 /* MBCNoteCell.m */; };
+		D9E3EA9919714854005DD572 /* MBCNoteFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E3EA9819714854005DD572 /* MBCNoteFactory.m */; };
+		D9E3EA9D19714B8B005DD572 /* MBCNoteDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E3EA9C19714B8B005DD572 /* MBCNoteDataSource.m */; };
+		D9E3EAA019715AE1005DD572 /* MBCNoteCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E3EA9F19715AE1005DD572 /* MBCNoteCellLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +63,38 @@
 		D9E3EA5719712057005DD572 /* MBCTest_Alex_IschenkoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MBCTest_Alex_IschenkoTests-Info.plist"; sourceTree = "<group>"; };
 		D9E3EA5919712057005DD572 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9E3EA5B19712057005DD572 /* MBCTest_Alex_IschenkoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBCTest_Alex_IschenkoTests.m; sourceTree = "<group>"; };
+		D9E3EA6819712123005DD572 /* MBCNotesCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCNotesCollectionViewController.h; sourceTree = "<group>"; };
+		D9E3EA6919712123005DD572 /* MBCNotesCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCNotesCollectionViewController.m; sourceTree = "<group>"; };
+		D9E3EA6F19712191005DD572 /* MBCRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCRootViewController.h; sourceTree = "<group>"; };
+		D9E3EA7019712191005DD572 /* MBCRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCRootViewController.m; sourceTree = "<group>"; };
+		D9E3EA7219712419005DD572 /* MBCNotesFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCNotesFlowLayout.h; sourceTree = "<group>"; };
+		D9E3EA7319712419005DD572 /* MBCNotesFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCNotesFlowLayout.m; sourceTree = "<group>"; };
+		D9E3EA7819712517005DD572 /* MBCNotesModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MBCNotesModel.xcdatamodel; sourceTree = "<group>"; };
+		D9E3EA7A19712639005DD572 /* MBCNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCNote.h; sourceTree = "<group>"; };
+		D9E3EA7B19712639005DD572 /* MBCNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCNote.m; sourceTree = "<group>"; };
+		D9E3EA7E19712824005DD572 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D9E3EA801971285C005DD572 /* MBCLocalStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBCLocalStorage.h; sourceTree = "<group>"; };
+		D9E3EA81197128DB005DD572 /* MBCDefaultLocalStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCDefaultLocalStorage.h; sourceTree = "<group>"; };
+		D9E3EA82197128DB005DD572 /* MBCDefaultLocalStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCDefaultLocalStorage.m; sourceTree = "<group>"; };
+		D9E3EA8419712B90005DD572 /* MBCOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBCOperation.h; sourceTree = "<group>"; };
+		D9E3EA8519712CAD005DD572 /* MBCConcurentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCConcurentOperation.h; sourceTree = "<group>"; };
+		D9E3EA8619712CAD005DD572 /* MBCConcurentOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCConcurentOperation.m; sourceTree = "<group>"; };
+		D9E3EA8919712D72005DD572 /* MBCPersistentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCPersistentOperation.h; sourceTree = "<group>"; };
+		D9E3EA8A19712D72005DD572 /* MBCPersistentOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCPersistentOperation.m; sourceTree = "<group>"; };
+		D9E3EA8C19712F15005DD572 /* MBCManagedObjectMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBCManagedObjectMapper.h; sourceTree = "<group>"; };
+		D9E3EA8D19712F2F005DD572 /* MBCNotesObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCNotesObjectMapper.h; sourceTree = "<group>"; };
+		D9E3EA8E19712F2F005DD572 /* MBCNotesObjectMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCNotesObjectMapper.m; sourceTree = "<group>"; };
+		D9E3EA9019712F8A005DD572 /* MBCGetNotesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCGetNotesOperation.h; sourceTree = "<group>"; };
+		D9E3EA9119712F8A005DD572 /* MBCGetNotesOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCGetNotesOperation.m; sourceTree = "<group>"; };
+		D9E3EA94197143B8005DD572 /* MBCNoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCNoteCell.h; sourceTree = "<group>"; };
+		D9E3EA95197143B8005DD572 /* MBCNoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCNoteCell.m; sourceTree = "<group>"; };
+		D9E3EA9719714854005DD572 /* MBCNoteFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCNoteFactory.h; sourceTree = "<group>"; };
+		D9E3EA9819714854005DD572 /* MBCNoteFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCNoteFactory.m; sourceTree = "<group>"; };
+		D9E3EA9A197148F7005DD572 /* MBCPersistentFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBCPersistentFactory.h; sourceTree = "<group>"; };
+		D9E3EA9B19714B8B005DD572 /* MBCNoteDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCNoteDataSource.h; sourceTree = "<group>"; };
+		D9E3EA9C19714B8B005DD572 /* MBCNoteDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCNoteDataSource.m; sourceTree = "<group>"; };
+		D9E3EA9E19715AE1005DD572 /* MBCNoteCellLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCNoteCellLayout.h; sourceTree = "<group>"; };
+		D9E3EA9F19715AE1005DD572 /* MBCNoteCellLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCNoteCellLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9E3EA7F19712824005DD572 /* CoreData.framework in Frameworks */,
 				D9E3EA3919712057005DD572 /* CoreGraphics.framework in Frameworks */,
 				D9E3EA3B19712057005DD572 /* UIKit.framework in Frameworks */,
 				D9E3EA3719712057005DD572 /* Foundation.framework in Frameworks */,
@@ -96,6 +144,7 @@
 		D9E3EA3519712057005DD572 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D9E3EA7E19712824005DD572 /* CoreData.framework */,
 				D9E3EA3619712057005DD572 /* Foundation.framework */,
 				D9E3EA3819712057005DD572 /* CoreGraphics.framework */,
 				D9E3EA3A19712057005DD572 /* UIKit.framework */,
@@ -107,6 +156,7 @@
 		D9E3EA3C19712057005DD572 /* MBCTest_Alex_Ischenko */ = {
 			isa = PBXGroup;
 			children = (
+				D9E3EA65197120C4005DD572 /* Source */,
 				D9E3EA4519712057005DD572 /* MBCAppDelegate.h */,
 				D9E3EA4619712057005DD572 /* MBCAppDelegate.m */,
 				D9E3EA4819712057005DD572 /* Images.xcassets */,
@@ -142,6 +192,100 @@
 				D9E3EA5819712057005DD572 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9E3EA65197120C4005DD572 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3EA66197120C4005DD572 /* GUI */,
+				D9E3EA75197124F0005DD572 /* DOM */,
+				D9E3EA7D19712785005DD572 /* DataLayer */,
+				D9E3EA76197124F0005DD572 /* Operations */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D9E3EA66197120C4005DD572 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3EA6B19712142005DD572 /* Root */,
+				D9E3EA67197120F8005DD572 /* Notes */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+		D9E3EA67197120F8005DD572 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3EA6819712123005DD572 /* MBCNotesCollectionViewController.h */,
+				D9E3EA6919712123005DD572 /* MBCNotesCollectionViewController.m */,
+				D9E3EA7219712419005DD572 /* MBCNotesFlowLayout.h */,
+				D9E3EA7319712419005DD572 /* MBCNotesFlowLayout.m */,
+				D9E3EA94197143B8005DD572 /* MBCNoteCell.h */,
+				D9E3EA95197143B8005DD572 /* MBCNoteCell.m */,
+				D9E3EA9E19715AE1005DD572 /* MBCNoteCellLayout.h */,
+				D9E3EA9F19715AE1005DD572 /* MBCNoteCellLayout.m */,
+				D9E3EA9719714854005DD572 /* MBCNoteFactory.h */,
+				D9E3EA9819714854005DD572 /* MBCNoteFactory.m */,
+				D9E3EA9B19714B8B005DD572 /* MBCNoteDataSource.h */,
+				D9E3EA9C19714B8B005DD572 /* MBCNoteDataSource.m */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		D9E3EA6B19712142005DD572 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3EA6F19712191005DD572 /* MBCRootViewController.h */,
+				D9E3EA7019712191005DD572 /* MBCRootViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		D9E3EA75197124F0005DD572 /* DOM */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3EA7719712517005DD572 /* MBCNotesModel.xcdatamodeld */,
+				D9E3EA7A19712639005DD572 /* MBCNote.h */,
+				D9E3EA7B19712639005DD572 /* MBCNote.m */,
+			);
+			path = DOM;
+			sourceTree = "<group>";
+		};
+		D9E3EA76197124F0005DD572 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3EA8819712D59005DD572 /* PersistentOperation */,
+				D9E3EA8419712B90005DD572 /* MBCOperation.h */,
+				D9E3EA8519712CAD005DD572 /* MBCConcurentOperation.h */,
+				D9E3EA8619712CAD005DD572 /* MBCConcurentOperation.m */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		D9E3EA7D19712785005DD572 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3EA801971285C005DD572 /* MBCLocalStorage.h */,
+				D9E3EA81197128DB005DD572 /* MBCDefaultLocalStorage.h */,
+				D9E3EA82197128DB005DD572 /* MBCDefaultLocalStorage.m */,
+				D9E3EA8C19712F15005DD572 /* MBCManagedObjectMapper.h */,
+				D9E3EA8D19712F2F005DD572 /* MBCNotesObjectMapper.h */,
+				D9E3EA8E19712F2F005DD572 /* MBCNotesObjectMapper.m */,
+				D9E3EA9A197148F7005DD572 /* MBCPersistentFactory.h */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		D9E3EA8819712D59005DD572 /* PersistentOperation */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3EA8919712D72005DD572 /* MBCPersistentOperation.h */,
+				D9E3EA8A19712D72005DD572 /* MBCPersistentOperation.m */,
+				D9E3EA9019712F8A005DD572 /* MBCGetNotesOperation.h */,
+				D9E3EA9119712F8A005DD572 /* MBCGetNotesOperation.m */,
+			);
+			path = PersistentOperation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +385,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9E3EA4319712057005DD572 /* main.m in Sources */,
+				D9E3EA8B19712D72005DD572 /* MBCPersistentOperation.m in Sources */,
+				D9E3EA96197143B8005DD572 /* MBCNoteCell.m in Sources */,
+				D9E3EA8719712CAD005DD572 /* MBCConcurentOperation.m in Sources */,
+				D9E3EAA019715AE1005DD572 /* MBCNoteCellLayout.m in Sources */,
+				D9E3EA6A19712123005DD572 /* MBCNotesCollectionViewController.m in Sources */,
+				D9E3EA83197128DB005DD572 /* MBCDefaultLocalStorage.m in Sources */,
+				D9E3EA9219712F8A005DD572 /* MBCGetNotesOperation.m in Sources */,
+				D9E3EA9919714854005DD572 /* MBCNoteFactory.m in Sources */,
+				D9E3EA7919712517005DD572 /* MBCNotesModel.xcdatamodeld in Sources */,
+				D9E3EA7C19712639005DD572 /* MBCNote.m in Sources */,
+				D9E3EA9D19714B8B005DD572 /* MBCNoteDataSource.m in Sources */,
+				D9E3EA7419712419005DD572 /* MBCNotesFlowLayout.m in Sources */,
 				D9E3EA4719712057005DD572 /* MBCAppDelegate.m in Sources */,
+				D9E3EA7119712191005DD572 /* MBCRootViewController.m in Sources */,
+				D9E3EA8F19712F2F005DD572 /* MBCNotesObjectMapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +516,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SnapVerse Inc. (HBR8W664EG)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MBCTest_Alex_Ischenko/MBCTest_Alex_Ischenko-Prefix.pch";
 				INFOPLIST_FILE = "MBCTest_Alex_Ischenko/MBCTest_Alex_Ischenko-Info.plist";
@@ -371,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SnapVerse Inc. (HBR8W664EG)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MBCTest_Alex_Ischenko/MBCTest_Alex_Ischenko-Prefix.pch";
 				INFOPLIST_FILE = "MBCTest_Alex_Ischenko/MBCTest_Alex_Ischenko-Info.plist";
@@ -438,6 +598,7 @@
 				D9E3EA6119712057005DD572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9E3EA6219712057005DD572 /* Build configuration list for PBXNativeTarget "MBCTest_Alex_IschenkoTests" */ = {
 			isa = XCConfigurationList;
@@ -446,8 +607,22 @@
 				D9E3EA6419712057005DD572 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D9E3EA7719712517005DD572 /* MBCNotesModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D9E3EA7819712517005DD572 /* MBCNotesModel.xcdatamodel */,
+			);
+			currentVersion = D9E3EA7819712517005DD572 /* MBCNotesModel.xcdatamodel */;
+			path = MBCNotesModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D9E3EA2B19712057005DD572 /* Project object */;
 }
